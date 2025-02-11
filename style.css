@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background: linear-gradient(to right, #001F3F, #FF851B);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 5px 0;
+}
+
+.agreement {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.agreement h3 {
+    font-size: 24px;
+    color: #FFD700;
+}
+
+.agreement p {
+    font-size: 18px;
+}
+
+.date {
+    font-style: italic;
+    color: #ddd;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-top: 30px;
+}
